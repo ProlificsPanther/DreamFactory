@@ -1,0 +1,45 @@
+{
+  "resource": [
+    {
+      "name": "contact",
+      "label": "Contact",
+      "plural": "Contacts",
+      "alias": null,
+      "field": [
+        {
+          "name": "id",
+          "label": "Id",
+          "type": "id"
+        },
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "string",
+          "size": 80,
+          "allow_null": false
+        },
+        {
+          "name": "phone",
+          "label": "Phone",
+          "type": "string",
+          "size": 20,
+          "allow_null": true
+        },
+        {
+          "name": "email",
+          "label": "Email",
+          "type": "string",
+          "size": 80,
+          "allow_null": true
+        },
+        {
+          "name": "from_mongo_twitter",
+          "label": "Twitter",
+          "type": "string",
+          "size": 20,
+          "allow_null": true
+        }
+      ]
+    }
+  ]
+}

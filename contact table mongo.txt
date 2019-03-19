@@ -1,0 +1,9 @@
+{
+  "resource": [
+    {
+      "name": "contact",
+      "label": "Contact",
+      "plural": "Contacts"
+    }
+  ]
+}

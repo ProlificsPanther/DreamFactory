@@ -1,0 +1,14 @@
+{
+  "resource": [
+    {
+      "name": "Ben",
+      "phone": "415-299-4517",
+      "email": "ben@abc.com"
+    },
+    {
+      "name": "Sarah",
+      "phone": "520-286-1529",
+      "email": "sarah@abc.com"
+    }
+  ]
+}

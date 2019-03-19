@@ -1,0 +1,12 @@
+{
+  "resource": [
+    {
+      "email": "ben@abc.com",
+      "twitter": "@ben"
+    },
+    {
+      "email": "sarah@abc.com",
+      "twitter": "@sarah"
+    }
+  ]
+}

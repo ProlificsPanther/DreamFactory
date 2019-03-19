@@ -1,0 +1,22 @@
+var lodash = require("lodash.min.js");
+
+if (event.response.content.resource) {
+    
+    lodash._.each (event.response.content.resource, function(record) {
+        
+        var_dump("dumping record");
+        var_dump(record);
+        
+        var params = {
+            "filter": "email=" + record.email
+        }
+        var result = platform.api.get("mongodb/_table/contact", params);
+        
+        var_dump("dumping result");
+        var_dump(result);
+        
+        record.from_mongo_twitter = result.content.resource[0].twitter;
+        
+        event.response.content_changed = true;
+    });
+}
