@@ -50,7 +50,7 @@ This sample demonstrates how to call a REST Service (DreamFactory running on a l
 
 Video Tutorial: https://youtu.be/cIm2YIKAWcs
 
-Need a Panther Web 551 Redhat Image? [Click Here](https://hub.docker.com/r/prolificspanther)
+Need a Panther Web 552 Redhat Image? [Click Here](https://hub.docker.com/r/prolificspanther/pantherweb)
 
 [Click Here](https://www.prolifics.com/panther-trial-license-request) for a 45 day license.
 
