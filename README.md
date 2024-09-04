@@ -1,8 +1,7 @@
 # DreamFactory
 Resources required for Panther Client to make GET and POST calls to DreamFactory data.
 
-How to access the data present in DreamFactory into your Panther Client by making a REST call.
-
+## How to access the data present in DreamFactory into your Panther Client by making a REST call?
 
 This sample demonstrates how to call a REST Service (DreamFactory running on a local server(Apache)) from a Panther Desktop Client (prodev). This REST service will return the data stored in DreamFactory in JSON format  for any database for an admin user.
 
